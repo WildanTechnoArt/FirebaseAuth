@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Firebase Example</string>
     <string name="textview">FirebaseExample By: Wildan M Athoillah</string>
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />
+    <string name="facebook_app_id">152362762223095</string>
+    <string name="fb_login_protocol_scheme">fb152362762223095</string>
 </resources>

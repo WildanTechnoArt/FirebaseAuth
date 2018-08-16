@@ -3,25 +3,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="16dp"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context="cianjur.developer.net.firebaseexample.main_menu">
+    tools:context="cianjur.developer.net.firebaseexample.MainActivity">
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="Selamat Datang Di WILDAN TECHNO ART"
-        android:textSize="14sp"
-        android:textStyle="bold" />
+        android:text="Selamat Datang"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/logout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Keluar" />
+        android:text="Logout"
+        tools:ignore="HardcodedText" />
 
 </LinearLayout>
